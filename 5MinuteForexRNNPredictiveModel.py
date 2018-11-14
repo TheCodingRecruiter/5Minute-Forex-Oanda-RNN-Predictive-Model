@@ -28,7 +28,6 @@ config.read('../config/config_v20.ini')
 accountID = config['oanda']['account_id']
 access_token = config['oanda']['api_key']
 
-accountID = account_id
 client = oandapyV20.API(access_token=access_token)
 
 # Getting the data
